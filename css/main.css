@@ -1,0 +1,24 @@
+.nav{
+    background-color: white;
+    display: flex;
+}
+.nav__title{
+    font-weight: 400;
+    font-size: 33px;
+    color:blue;
+    
+}
+.nav__bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    position: relative;
+    left:400px;
+   
+}
+.nav__bar{
+    font-weight: 300;
+    font-size: 18px;
+    margin-right: 20px;
+}
