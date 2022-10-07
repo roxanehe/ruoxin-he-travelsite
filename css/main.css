@@ -1,6 +1,9 @@
 *{
     font-family: verdana;
 }
+body{
+    margin:0;
+}
 .nav{
     background-color: #ffffff;
     display: flex;
@@ -114,7 +117,56 @@
 }
 .rec__card-text{
     position: absolute;
-    bottom:0rem;
+    bottom:2rem;
     right:0.5rem;
     color:#ffffff;
+    font-size: 1.8rem;
+    font-weight:400;
+
+}
+.footer{
+    background-color: #fefaf5;
+    padding:2rem 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__contact,.footer__hours,.footer__social{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer__info--mutiple{
+    display: flex;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    margin:0 3rem 0 0;
+}
+.footer__title{
+    color:#335576;
+   
+}
+.footer__subtitle{
+    color:#db7a4e;
+    font-size: 0.6rem;
+  
+}
+.footer__content{
+    color:#335576;
+    margin:1rem 0;
+
+}
+.footer__logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:1rem 0;
+}
+.footer__logo{
+    width:1.6rem;
+    height:1.6rem;
+    margin:0 2rem 0 0;
+
 }
