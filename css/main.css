@@ -84,3 +84,37 @@
     width:30rem;
 
 }
+.rec{
+    background-color: #ffffff;
+    padding:2rem 8rem 5rem 8rem;
+}
+.rec__title{
+    color:#335576;
+    position: relative;
+    right:5rem;
+}
+.rec__cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rec__card{
+    width:18rem;
+    height:27rem;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+
+}
+.rec__card-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.rec__card-text{
+    position: absolute;
+    bottom:0rem;
+    right:0.5rem;
+    color:#ffffff;
+}
