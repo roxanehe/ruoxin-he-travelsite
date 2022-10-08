@@ -1,0 +1,155 @@
+*{
+    font-family: verdana;
+}
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: #ffffff;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:3rem;
+    width:100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+   
+    
+}
+.nav__title{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color:#335576;
+    text-decoration: none;
+    position:relative;
+    right:8rem;
+}
+.nav__bars{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 17rem;
+    position:relative;
+    left:7rem;
+   
+}
+.list__item{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.nav__bar{
+    padding-bottom: 0.5rem;
+    font-weight: 300;
+    font-size:0.9rem;
+    text-decoration: none;
+    color:black;
+    
+}
+.nav__bar__highlight{
+    border-bottom:3px solid #db7a4e;
+}
+.itirenary{
+    padding:2rem 8rem 5rem 8rem;
+    background-size:100%;
+    background-position:center;
+}
+.itirenary--h{
+    background-image: url(../assets/Images/hawaii.jpg);
+   
+}
+.itirenary--i{
+    background-image: url(../assets/Images/iceland.jpg);
+}
+.itirenary--g{
+    background-image: url(../assets/Images/greece.jpg);
+}
+.itirenary__title{
+    color:#ffffff;
+    font-size: 3rem;
+    position: relative;
+    right:5rem;
+}
+.itirenary__cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.itirenary__card{
+    width:18rem;
+    height:27rem;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    background-color: #ffffff;
+   
+
+}
+.itirenary__card-title{
+    border-bottom: 2px solid black;
+    font-size: 1.3rem;
+    text-align: center;
+    margin:1rem;
+}
+.itirenary__card-items{
+    padding:1rem;
+    
+}
+.itirenary__card-item{
+    list-style: none;
+    padding:1.2rem;
+    margin:0;
+    margin-bottom: 1rem;
+    background-color:#fefaf5;
+    text-align: center;
+}
+.footer{
+    background-color: #fefaf5;
+    padding:2rem 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__contact,.footer__hours,.footer__social{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer__info--mutiple{
+    display: flex;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    margin:0 3rem 0 0;
+}
+.footer__title{
+    color:#335576;
+   
+}
+.footer__subtitle{
+    color:#db7a4e;
+    font-size: 0.6rem;
+  
+}
+.footer__content{
+    color:#335576;
+    margin:1rem 0;
+
+}
+.footer__logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:1rem 0;
+}
+.footer__logo{
+    width:1.6rem;
+    height:1.6rem;
+    margin:0 2rem 0 0;
+
+}
